@@ -1,10 +1,10 @@
 <a name="readme-top"></a>
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./src/assets/logo.png" alt="logo" width="140"  height="auto" />
+  <!-- <img src="./src/assets/logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
-  <h3><b>BookStore</b></h3>
+  <h3><b>School Library</b></h3>
 
 </div>
 
@@ -31,10 +31,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 BookStore <a name="about-project"></a>
+# 📖 School Library <a name="about-project"></a>
 
 
-**BookStore** The app for organizing personal book list. Add, remove & track reading progress, bookmark are some key features in this application.
+**School Library** is an application to manage students & teachers activities.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,12 +42,9 @@
 
 
 <details>
-  <summary>Client</summary>
+  <summary>Backend</summary>
   <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-    <li>React</li>
+    <li>Ruby</li>
   </ul>
 </details>
 
@@ -57,9 +54,8 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **Add book**
-- **Add book category**
-- **Delete book**
+- **Student's play**
+- **Teacher's service usage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,52 +66,27 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
+- Clone this repository run 
+```git clone https://github.com/Aqurds/OOP-school-library```
+- Open the project in a editor
+
+- Run bundle install to install dependencies
+
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
+- Git. 
 
-```sh
- gem install rails
-```
- -->
- <ul>
-    <li>A working browser</li>
-    <li>Node.js</li>
-    <li>A code editor like Visual Studio Code</li>
-  </ul>
+- Ruby.
 
-### Setup
-
-Clone this repository to your desired folder:
-
-
-```
-  git https://github.com/Aqurds/bookstore
-  cd bookstore
-```
-
-### Install
-
-```
-  npm install
-```
-
-### Usage
-
-```
-  npm start
-```
-
+- Code editor.
 
 <!-- AUTHORS -->
 
@@ -132,9 +103,8 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add tracking of reading progress**
-- **Bookmark book chapter**
-- **User history of reading**
+- **Monitoring students' activity**
+- **Giving teacher access students' performance record**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
