@@ -1,5 +1,5 @@
 class BaseDecorator < Nameable
-  def initialze(nameable)
+  def initialize(nameable)
     super()
     @nameable = nameable
   end
