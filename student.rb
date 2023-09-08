@@ -1,15 +1,22 @@
 require_relative 'person'
-
-# This class represents a student that inherits from Person
 class Student < Person
-  # Constructor that extends parent's constructor by adding @classroom and a parameter for it
-  def initialize(age, classroom, name = 'Unknown', parent_permission: true)
-    super(age, name, parent_permission)
-    @classroom = classroom
+  attr_accessor :classroom
+  attr_writer :parent_permission
+
+  def initialize(age, name = 'Unknown')
+    super(age, name)
   end
 
-  # Method that returns '¯\(ツ)/¯'
+  def assign_classroom(classroom)
+    self.classroom = classroom
+    classroom&.add_student(self)
+  end
+
   def play_hooky
-    '¯\(ツ)/¯'
+    '¯(ツ)/¯'
+  end
+
+  def to_s
+    "Student: #{@name}, Age: #{@age}, Parent Permission: #{@parent_permission} ID:#{@id}"
   end
 end
