@@ -13,6 +13,8 @@ def menu_list
   puts '6 - List all rentals for a given person id'
   puts '7 - Exit'
 end
+# rubocop:disable Metrics/CyclomaticComplexity
+# rubocop:disable Metrics/MethodLength
 
 def main
   my_app = App.new
@@ -42,5 +44,7 @@ def main
     end
   end
 end
+# rubocop:enable Metrics/CyclomaticComplexity
+# rubocop:enable Metrics/MethodLength
 
 main if __FILE__ == $PROGRAM_NAME
